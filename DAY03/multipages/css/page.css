@@ -1,0 +1,43 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    /*font-weight: 100-900; normal = 400  light =200  bold =700*/
+    font-weight: 100;
+    font-family: "Spoqa Han Sans"
+    
+}
+
+a {
+    color:#6bd0ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#3981e6;
+}
+
+.active-page{
+    border-left: 3px currentColor solid;
+    padding-left: 5px;
+}
+
+/*각 페이지마다 배경이미지 변경 <id 속성으로구분 */
+#travel{
+    /*background: 색상(color) 이미지경로(url) 반복설정(repeat) 위치(position) 고정설정(attachment) */
+    /*background: transparent url("../images/bg_travel.jpg") repeat left top scroll;*/
+    background: transparent url("../images/bg_travel.jpg") no-repeat;
+    background-size: contain;
+}
+#spring{
+    background: transparent url("../images/bg_spring.jpg") no-repeat;
+    background-size: cover;
+}
+#summer{
+    background: transparent url("../images/bg_summer.jpg")no-repeat ;
+    background-size: cover;
+}
