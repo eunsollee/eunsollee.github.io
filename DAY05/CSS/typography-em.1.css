@@ -1,0 +1,74 @@
+/*가이드라인 화면에 보여준다*/
+body{
+    margin: 0;
+    background: url("../ASSETS/leading-ptn-21.gif");
+    height:100vh;
+    /*본문 디자인 (공통 속성 상속)*/
+    color:#6b6a6a;
+    font:300 87.5%/1.5 "Nanum Barun Gothic";
+}
+
+.container{
+    width:800px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/*단락디자인*/
+p{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+/*제목 디자인: modular scale=1.24 */
+h1,h2,h3,h4,h5,h6 {
+    margin-top:0;
+    color: #272727;
+}
+h5,h6 {
+    
+    font-weight: 400;
+}
+h4,h3,h2{
+    font-weight: 300;
+}
+h1{
+    font-weight: 200;
+    font-size: 3.6352em;
+    line-height:1.2400;
+    margin-bottom:0.4126em;
+}
+h2{
+    font-size: 2.9316em;
+    line-height: 1.024;
+    margin-bottom:0.5116em;
+}
+h3{
+    font-size: 2.3642em;
+    line-height:1.2700;
+    margin-bottom:0.6344em; 
+}
+h4{
+    font-size: 1.9066em;
+    line-height: 1.5800;
+    margin-bottom:0.7867em;
+}
+h5{
+    font-size:1.5376em;
+    line-height:0.9800;
+    margin-bottom:0.9755em;
+}
+h6{
+    /* 본문 글자 크기 x 글자 크기 배율*/
+    font-size: 1.24em; /* 1em = 14px */
+    /*행간 = 디자인 상의 줄 개수 x (행간 비율/글자크기 비율)*/
+    line-height:1.2100; /*1칸 *(1.5/1.24);*/
+    /*아래쪽 마진 = 행간비율/글자크기비율 */
+    margin-bottom:1.2096em;
+}
+
+.align-justify{
+    text-align: justify;
+}
+
+

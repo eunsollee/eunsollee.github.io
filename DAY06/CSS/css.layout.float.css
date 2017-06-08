@@ -1,0 +1,30 @@
+body{
+    margin: 4rem;
+}
+
+.box{
+    width:200px;
+    height:200px;
+    font:700 1.45rem Verdana;
+    color:#fff;
+    float: left;
+    margin-right: 2rem;
+}
+
+.is-central{
+    text-align: center;
+    line-height: 200px;
+}
+
+.primary{
+    background-color: #fa2645;
+}
+.secondary{
+    background-color: #fc8b9c;
+}
+.another{
+    background-color: #ad3d42;
+}
+.etc{
+    background-color: #272727;
+}
