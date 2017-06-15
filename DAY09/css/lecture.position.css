@@ -1,0 +1,39 @@
+body{
+    margin: 30px;
+}
+
+.box-parent{
+    /* absolute 부모 설정을 - position 속성이 기본 값이 아닌 자신을 포함하는 가장 가까운 부모 요소 */
+    /* fixed는 부모 설정을 무조건 화면으로 한다*/
+    border:1px solid #aaa;
+    position: fixed;
+}
+
+.box-child {
+    width:200px;  
+    height: 110px;
+    background: #111;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 110px;
+    color: #fff;
+    font-size: 20px;
+    position:relative;
+}
+
+.box-child:last-child{
+    margin-top: 0;
+}
+
+.is-1st{
+    background: #3ab982;    
+}
+.is-2st{
+    background: #e5be9b;
+    position: absolute;
+    right:30px;
+    bottom: 30px;
+}
+.is-3st{background: #fd414b;}
+
+

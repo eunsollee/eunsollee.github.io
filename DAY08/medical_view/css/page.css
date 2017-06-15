@@ -112,7 +112,7 @@ border-bottom: 1px dashed darkcyan;
 
 }
 
-dl{
+dl.QnA{
     margin-top: 0;
     margin-bottom: 2.1rem;
 }
@@ -166,7 +166,7 @@ main{
     font-weight: 700;
     font-size: 1.3rem;
 }
-.wrapper{
+.order-content{
    float: left;
    width: 69.9rem;
 }

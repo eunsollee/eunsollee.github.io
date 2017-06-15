@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+.banner{
+    width: 800px;
+    height: 320px;
+    /*background: url("../assets/BG.png") no-repeat;*/
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -160px;
+    margin-left: -400px;
+    overflow: hidden;
+}
+.banner *{
+    display: block;
+    margin: 0;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.banner-apes{
+    bottom: 93px;
+    left: 4px;
+}
+
+.banner-kingkong{
+    bottom: 0;
+    right: 11px;
+}
+
+.banner-golliras{
+    bottom: 24px;
+    left:11px;
+}
+
+.banner-logo{
+    top:18px;
+    left:18px;
+}
+
+.banner-headline{
+    left: 122px;
+    top:28px;
+}
