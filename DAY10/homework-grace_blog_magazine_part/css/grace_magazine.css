@@ -1,0 +1,73 @@
+body{
+    background: #fbfbfb;
+}
+
+/* 서체 */
+
+.montserrat{
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.is-bold{
+    font-weight: 700;
+}
+
+.baskerville{
+    font-family: 'Baskerville';
+    font-weight: 400;
+}
+
+/* 배너 디자인 */
+
+.banner-home{
+    box-shadow:0 0 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 580px;
+    height: 450px;
+    background: #fff url("../images/chair.png") no-repeat 45px 90px;
+}
+
+.is-centerXY{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -290px;
+}
+
+.category{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 12px;
+    color: #12407e;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.text{
+    position: absolute;
+    top: 128px;
+    left: 337px;
+}
+
+.banner-home-headline{
+    font-size: 28px;
+    line-height: 1.4285em;
+    margin: 0;
+}
+
+.banner-home-disc{
+    margin: 20px 0 0 0;
+    display: block;
+    width: 230px;
+    font-size: 14px;
+    line-height: 1.5em;
+    color:#8c9199;
+}
+
+.banner-home-link{
+  position: absolute;
+  left: 337px;
+  top: 308px;
+}

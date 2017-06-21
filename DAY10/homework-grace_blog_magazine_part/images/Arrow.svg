@@ -1,0 +1,43 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #f2f3f5;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse" class="cls-1" cx="32" cy="32" r="32"/>
+  <path id="Arrow" class="cls-2" d="M352,338h28a1,1,0,0,1,0,2H352A1,1,0,0,1,352,338Zm20.676-8.715,9.038,9.039a0.983,0.983,0,0,1-1.39,1.39l-9.038-9.038A0.983,0.983,0,0,1,372.676,329.285Zm7.648,9-9.038,9.038a0.983,0.983,0,0,0,1.39,1.39l9.038-9.038A0.983,0.983,0,0,0,380.324,338.286Z" transform="translate(-337 -307)"/>
+</svg>
