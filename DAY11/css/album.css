@@ -1,0 +1,54 @@
+html{
+    background: #fff;
+}
+
+body{
+    margin: 0;
+}
+
+.vignette{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle, #7b7b7b, #333);
+}
+.album{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 287px;
+    height: 287px;
+    transform: translate(-50%, -50%);
+}
+
+.album-item{
+    position: absolute;
+}
+
+.album-item.cover{
+    z-index:100;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
+.album-item.vynyl{
+    z-index:10;
+}
+
+.album .album-item{
+    top:0;
+    right: 0;
+    transition: all 1s ease-out;
+}
+
+.album:hover .album-item.vynyl{
+    top: -5px;
+    right: -25px;
+}
+
+.album:hover .album-item.disk{
+    top: -5px;
+    right: -80px;
+    transform: rotate(720deg);
+}
