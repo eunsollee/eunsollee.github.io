@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: #eee;
+}
+
+/* tab-component 디자인*/
+
+.tab-component, .tab-component *{
+    box-sizing: border-box;
+}
+
+.tab-component{
+    overflow: hidden;
+    width: 380px;
+    height: 450px;
+    margin: 40px;
+}
+
+.tab-component ul{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.tablist::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.tablist-item{
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    background: #fff;
+    border-right: 1px solid #dedfe5;
+    border-bottom: 1px solid #dedfe5;
+}
+
+.tablist-item:first-child{
+    border-radius: 10px 0 0 0;
+}
+.tablist-item:last-child{
+     border-radius: 0 10px 0 0;
+     border-right: 0;
+}
+
+.tablist-item.active .tab{
+    color:#12407e;
+}
+
+/*
+/* 아래쪽방향 화살표 그리기 
+.tablist-item.active{
+    position: relative;
+}
+.tablist-item.active::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    margin-left: -3.5px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+*/
+
+/* 회전된 박스 */
+.tablist-item.active{
+    position: relative;
+}
+.tablist-item.active::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    margin-left: -3.5px;
+    width: 8px;
+    height: 8px;
+    bottom: -5px;
+    background: #fff;
+    border-left: 1px solid #dedfe5;
+    border-bottom: 1px solid #dedfe5;
+    transform: rotate(-45deg);
+}
+
+
+.tab{
+    display: inline-block;
+    padding:1.6666em;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.tabpanels{
+
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+}
+
+.tab-component .tabpanel-list{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    background: #fff;
+    border-bottom: 1px solid #dedfe5;
+}
+.tabpanel-list li::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.tabpanel-list li{
+    margin-bottom: 20px;
+    height: 80px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.tabpanel-thumb{
+    float: left;
+    margin-right: 18px;
+    border-radius: 50%;
+}
+.tabpanel-time{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    display: block;
+    color: #8c9199;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.tabpanel-link{
+    font-family: "Libre Baskerville", serif;
+    color:#000;
+    font-size: 14px;
+    line-height: 1.5714em;
+    /*text-decoration: none;
+    border-bottom: 1px solid currentColor;*/
+}
+
+/*.tabpanel-control::after{
+    content: ''; 
+    display: block;
+    clear: both;
+}*/
+
+.tabpanel-control{
+    background: #fff;
+    padding: 13px 20px 17px 30px;
+    border-radius: 0 0 10px 10px;
+}
+.control-indicator{
+    float: left;
+}
+.indicator{
+    margin-right: 20px;
+    width: 10px;
+    height: 10px;
+    background: #dedfe5;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -999em;
+}
+.indicator.active{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #12407e;
+}
+.link.is-view-all{
+    position: relative;
+    float: right;
+    text-decoration: none;
+    color: #12407e;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding-right: 40px;
+}
+
+.link.is-view-all svg{
+    position: absolute;
+    top: -2px;
+    right: 0;
+}
